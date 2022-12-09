@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background: url(iot.webp); */
+    background-size: cover;
+    background-color: #fff;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.heading {
+    opacity: 0.80;
+    width: 100%;
+    height: 50px;
+    background: #000;
+    border-radius: 0%;
+}
+
+h4 {
+    color: #fff;
+    font-size: 35px;
+    /* font-style: italic; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.loginbox p,
+.signinbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input,
+.signinbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="password"],
+.signinbox input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"],
+.signinbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"],
+.signinbox input[type="submit"] {
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+.loginbox a,
+.signinbox a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover,
+.signinbox a:hover {
+    color: azure;
+}
+
+.signinbox {
+    width: 320px;
+    height: 450px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+/* node01 block begin */
+.node01 {
+    opacity: 0.80;
+    /* filter: alpha(opacity=100); */
+    width: 260px;
+    height: 160px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    top: 20%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 20px;
+    /* For IE8 and earlier */
+}
+
+.node01log {
+    opacity: 0.90;
+    /* filter: alpha(opacity=100); */
+    width: 260px;
+    height: 260px;
+    background: rgb(58, 47, 47);
+    color: #fff;
+    top: 55%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 20px 20px;
+    font-size: 17px;
+    /* For IE8 and earlier */
+}
+
+.node02log {
+    opacity: 0.90;
+    /* filter: alpha(opacity=100); */
+    width: 260px;
+    height: 260px;
+    background: rgb(58, 47, 47);
+    color: #fff;
+    top: 55%;
+    left: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 20px 20px;
+    font-size: 17px;
+    /* For IE8 and earlier */
+}
+
+.node03log {
+    opacity: 0.90;
+    /* filter: alpha(opacity=100); */
+    width: 260px;
+    height: 260px;
+    background: rgb(58, 47, 47);
+    color: #fff;
+    top: 55%;
+    left: 65%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 20px 20px;
+    font-size: 17px;
+    /* For IE8 and earlier */
+}
+
+.node04log {
+    opacity: 0.90;
+    /* filter: alpha(opacity=100); */
+    width: 260px;
+    height: 260px;
+    background: rgb(58, 47, 47);
+    color: #fff;
+    top: 55%;
+    left: 85%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 20px 20px;
+    font-size: 17px;
+    /* For IE8 and earlier */
+}
+
+.node01log b,
+.node02log b,
+.node03log b,
+.node04log b {
+    color: rgb(165, 53, 53);
+}
+
+.node01 p,
+.node02 p,
+.node03 p,
+.node04 p {
+    /* margin: 1; */
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+}
+
+h2 {
+    margin: 0;
+    /* padding: -0 20 20px; */
+    text-align: left;
+    font-size: 22px;
+    color: #fff;
+}
+
+.node01 a,
+.node02 a,
+.node03 a,
+.node04 a,
+.node01log a,
+.node02log a,
+.node03log a,
+.node04log a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+/* end node01 block */
+
+/* node02 block begin */
+.node02 {
+    opacity: 0.80;
+    /* filter: alpha(opacity=100); */
+    width: 260px;
+    height: 160px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    top: 20%;
+    left: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    /* For IE8 and earlier */
+}
+
+/* end node02 block */
+
+/* node03 block begin */
+.node03 {
+    opacity: 0.80;
+    /* filter: alpha(opacity=100); */
+    width: 260px;
+    height: 160px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    top: 20%;
+    left: 65%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    /* For IE8 and earlier */
+}
+
+/* end node03 block */
+
+/* node04 block begin */
+.node04 {
+    opacity: 0.80;
+    /* filter: alpha(opacity=100); */
+    width: 260px;
+    height: 160px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    top: 20%;
+    left: 85%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    /* For IE8 and earlier */
+}
+
+/* end node04 block */
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px)
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}

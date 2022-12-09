@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <!--h1>Welcome, {{ name }}!</h1-->
+    <div class="node01">
+        <h2>Node 01</h2>
+        <form>
+            <p>Temperature : {{ temperature1 }} °C</p>
+            <p>R Humidity : {{ humidity1 }} % </p>
+        </form>
+    </div>
+
+    <div class="node02">
+        <h2>Node 02</h2>
+        <form>
+            <p>Temperature : {{ temperature2 }} °C</p>
+            <p>R Humidity : {{ humidity2 }} % </p>
+        </form>
+    </div>
+
+    <div class="node03">
+        <h2>Node 03</h2>
+        <form>
+            <p>Temperature : {{ temperature3 }} °C</p>
+            <p>R Humidity : {{ humidity3 }} % </p>
+        </form>
+    </div>
+
+    <div class="node04">
+        <h2>Node 04</h2>
+        <form>
+            <p>Temperature : {{ temperature4 }} °C</p>
+            <p>R Humidity : {{ humidity4 }} % </p>
+        </form>
+    </div>
+    <div class="node01log">
+        <h2>Node 01 Conditions</h2>
+        <form>
+            <p>Times With Extreme Conditions</p>
+            <p>23/08/99 Temp: <b>50</b> °C</p>
+            <p>R Humidity : <b>80</b> %</p>
+            <p>Lasted for <b>30</b> mins</p>
+            <a href="#">View All for Node01</a><br>
+        </form>
+    </div>
+    <div class="node02log">
+        <h2>Node 02 Conditions</h2>
+        <form>
+            <p>Times With Extreme Conditions</p>
+            <p>23/08/99 Temp: <b>50</b> °C</p>
+            <p>R Humidity : <b>80</b> %</p>
+            <p>Lasted for <b>30</b> mins</p>
+            <a href="#">View All for Node02</a><br>
+        </form>
+    </div>
+    <div class="node03log">
+        <h2>Node 03 Conditions</h2>
+        <form>
+            <p>Times With Extreme Conditions</p>
+            <p>23/08/99 Temp: <b>50</b> °C</p>
+            <p>R Humidity : <b>80</b> %</p>
+            <p>Lasted for <b>30</b> mins</p>
+            <a href="#">View All for Node03</a><br>
+        </form>
+    </div>
+    <div class="node04log">
+        <h2>Node 04 Conditions</h2>
+        <form>
+            <p>Times With Extreme Conditions</p>
+            <p>23/08/99 Temp: <b>50</b> °C</p>
+            <p>R Humidity : <b>80</b> %</p>
+            <p>Lasted for <b>30</b> mins</p>
+            <a href="#">View All for Node04</a><br>
+        </form>
+    </div>
+{% endblock %}
