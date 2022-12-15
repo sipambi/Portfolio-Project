@@ -12,7 +12,9 @@ The application was developed based on flask python framework, so for its instal
 - Sqlite
 
 # Usage
-- For the usage of the application you need to have multiple sensor nodes deployed in the warehouses where the conditions need to be monitored.
+- For the usage of the application you need to have multiple sensor nodes deployed in the warehouses where the conditions need to be monitored. The below image shows how the data is displayed in the app.
+# Display
+![image](https://user-images.githubusercontent.com/96469754/207959932-9c48766b-95a0-4397-98e7-e018ba616af1.png)
 
 # Contributing
  - Max Sibanda
@@ -21,3 +23,4 @@ The application was developed based on flask python framework, so for its instal
 - IOT Based Smart Weather Station
 
 # Licensing
+- No copyright and or licenses.
