@@ -3,7 +3,7 @@ The need for effective and efficient medicine and Pharmaceutical products gave r
 diseases, sickness, pandemics, epidemics, it is very vital that medications and pills remain as efficient as they were designed to be.
 Medicinal products and Pharmaceutical products are sensitive to changes in temperatures and humidity, with their exposure to conditions 
 outside their designated conditions may give rise to ineffective or toxicity of drugs which may have a negative impact on human healthy
-and again failure to eradicate ongoing epidemics and widespread of diseases.
+and again failure to eradicate ongoing epidemics and widespread of diseases. The project can be accessed on www.madmaxfury.tech, linkedin https://www.linkedin.com/in/max-sibanda-4883b311b/.
 
 # Installation
 The application was developed based on flask python framework, so for its installation there is need for
